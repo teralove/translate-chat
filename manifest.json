@@ -1,0 +1,13 @@
+{
+  "files": {
+    "index.js": "af2e7f36ec03f0e3d838d1ed7dfdaaddcc9192969cc6c1f19eb7e071813c5312",
+    "module.json": "0181f34f0e8de044cff5849a4350bca50053fe3ce8a0165a357b7a41d090f6d7",
+    "README.MD": "aad7b3062e725295bb10f8e34fe60112d558cc8ee59e95da78edf9d85a70c38c"
+  },
+  "defs": {
+    "S_LOGIN": 10,
+    "S_CHAT": 1,
+    "S_WHISPER": 1,
+    "S_PRIVATE_CHAT": 1
+  }
+}
