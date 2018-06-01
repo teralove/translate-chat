@@ -1,0 +1,66 @@
+{
+  "_from": "node-google-translate-skidz",
+  "_id": "node-google-translate-skidz@1.1.2",
+  "_inBundle": false,
+  "_integrity": "sha512-ptzaTx/eB4unclyKBy9ixPrUkhgkMwHm/BxqdKoainssqNPIKzAJZo073oV7QPa0rBal+pzXBPvC0K6zYr8vHg==",
+  "_location": "/node-google-translate-skidz",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "node-google-translate-skidz",
+    "name": "node-google-translate-skidz",
+    "escapedName": "node-google-translate-skidz",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/node-google-translate-skidz/-/node-google-translate-skidz-1.1.2.tgz",
+  "_shasum": "e6a69afc310e270a445227a7f32e8958cd18196e",
+  "_spec": "node-google-translate-skidz",
+  "_where": "C:\\Users\\Jesse",
+  "author": {
+    "name": "StaticKidz",
+    "email": "statickidz@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/statickidz/node-google-translate-free/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "lodash": "^4.17.10",
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2"
+  },
+  "deprecated": false,
+  "description": "Simple Node.js library for talking to Google's Translate API for free.",
+  "devDependencies": {
+    "mocha": "^5.1.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "homepage": "https://statickidz.com",
+  "keywords": [
+    "i18n",
+    "l10n",
+    "google",
+    "google translate api",
+    "translate"
+  ],
+  "license": "ISC",
+  "main": "./lib/translate.js",
+  "name": "node-google-translate-skidz",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/statickidz/node-google-translate-free.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "version": "1.1.2"
+}

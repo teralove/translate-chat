@@ -2,7 +2,7 @@ const Command = require('command');
 
 module.exports = function TranslateChat(dispatch) {
     const command = Command(dispatch);
-    const translate  = require('./node-google-translate-skidz');
+    const translate  = require('./dependencies/node-google-translate-skidz');
     
     let enabled = true,
     sourceLang = 'auto', // auto = detect language. can be specified with language code
@@ -47,7 +47,7 @@ module.exports = function TranslateChat(dispatch) {
     });
     
     function getTranslation(event, callback) {        
-        let sanitized = event.message.replace(/<(.+?)>|&rt;|&lt;|&gt;|;/g, '');  
+        let sanitized = event.message.replace(/<(.+?)>|&rt;|&lt;|&gt;|/g, '').replace(/\s+$/, ''); 
 
         translate({
             text: sanitized,
