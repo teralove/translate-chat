@@ -30,7 +30,7 @@ module.exports = function TranslateChat(dispatch) {
         
         getTranslation(event, function(query) {
             if (query != undefined) {
-                dispatch.toClient('S_WHISPER', 1, Object.assign({}, event, {message: message, author: event.author + ' (translated)'}));
+                dispatch.toClient('S_WHISPER', 1, Object.assign({}, event, {message: query.translation, author: event.author + ' (translated)'}));
             }
         });        
     });    
@@ -41,7 +41,7 @@ module.exports = function TranslateChat(dispatch) {
         
         getTranslation(event, function(query) {
             if (query != undefined) {
-                dispatch.toClient('S_PRIVATE_CHAT', 1, Object.assign({}, event, {message: message, authorName: event.authorName + ' (translated)'}));
+                dispatch.toClient('S_PRIVATE_CHAT', 1, Object.assign({}, event, {message: query.translation, authorName: event.authorName + ' (translated)'}));
             }
         });
     });
