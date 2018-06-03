@@ -12,12 +12,11 @@ translates incoming chat text into another language
 - Toggle off/on
 - Default is on
 
-## Issues
-- Cannot find module 'lodash'. [Click here](https://github.com/teralove/translate-chat/issues/3) for solution if you encounter this problem.
-
 ## Changelog
 <details>
 
+    1.3
+    - Renamed dependencies folder into node_modules
     1.2
     - Fix: Whispers and private chat not working.
     1.1

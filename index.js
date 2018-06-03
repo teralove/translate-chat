@@ -2,7 +2,7 @@ const Command = require('command');
 
 module.exports = function TranslateChat(dispatch) {
     const command = Command(dispatch);
-    const translate  = require('./dependencies/node-google-translate-skidz');
+    const translate  = require('node-google-translate-skidz');
     
     let enabled = true,
     sourceLang = 'auto', // auto = detect language. can be specified with language code
