@@ -1,6 +1,5 @@
 {
 	"files": {
-		"README.MD": "9343a810578c7268872e70b5845ddee806574f26302bd74b51de65bce65186c2",
 		"index.js": "0c933b811733587e0c1843f2ee5bc1321fdb138fe30492016e483586f9044467",
 		"module.json": "7b3a608ed223a6cfcb2b281c424bfdb93b08ea2205c6767e2002b5c9e156bf5a",
 		"node_modules/bluebird/index.js": "e9ca1eefba6a59fb24ad03eff54b173ed6e2020be310c4bc39cbe9d654c9e6c1",
