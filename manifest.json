@@ -1,7 +1,7 @@
 {
 	"files": {
 		"README.MD": "9343a810578c7268872e70b5845ddee806574f26302bd74b51de65bce65186c2",
-		"index.js": "bf289b4b125848ad4ca29ca2ca9d26a41d9a11ad49fcc898f6d5267844ffd504",
+		"index.js": "0c933b811733587e0c1843f2ee5bc1321fdb138fe30492016e483586f9044467",
 		"module.json": "7b3a608ed223a6cfcb2b281c424bfdb93b08ea2205c6767e2002b5c9e156bf5a",
 		"node_modules/bluebird/index.js": "e9ca1eefba6a59fb24ad03eff54b173ed6e2020be310c4bc39cbe9d654c9e6c1",
 		"node_modules/bluebird/js/browser/bluebird.core.js": "018cc369e8413fd37465d8023ebc723ad494bec166115da50f4d8da6f6d77cc8",

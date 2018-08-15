@@ -4,7 +4,7 @@ module.exports = function TranslateChat(mod) {
     const translate  = require('node-google-translate-skidz');
 
     mod.hook('S_CHAT', 2, {order: 100}, (event) => {
-        if (!enabled) return;
+        if (!mod.settings.enabled) return;
         if (event.authorName === mod.game.me.name) return;
         
         getTranslation(event, function(query) {
@@ -15,7 +15,7 @@ module.exports = function TranslateChat(mod) {
     });   
         
     mod.hook('S_WHISPER', 2, {order: 100}, (event) => {
-        if (!enabled) return;
+        if (!mod.settings.enabled) return;
         if (event.author === mod.game.me.name) return;
         
         getTranslation(event, function(query) {
@@ -26,7 +26,7 @@ module.exports = function TranslateChat(mod) {
     });    
     
     mod.hook('S_PRIVATE_CHAT', 1, {order: 100}, (event) => {
-        if (!enabled) return;
+        if (!mod.settings.enabled) return;
         if (event.authorName === mod.game.me.name) return;
         
         getTranslation(event, function(query) {
@@ -53,7 +53,7 @@ module.exports = function TranslateChat(mod) {
         switch(args[0]) {
             case undefined:
                 mod.settings.enabled = !mod.settings.enabled;
-                mod.command.message('Module ' + (enabled ? 'Enabled' : 'Disabled'));
+                mod.command.message('Module ' + (mod.settings.enabled ? 'Enabled' : 'Disabled'));
                 break
             case 'source':
                 if(!args[1]) {
@@ -83,6 +83,9 @@ module.exports = function TranslateChat(mod) {
                 mod.command.message('Target Language set to: ' + args[1] + '.')
                 mod.settings.targetLang = args[1]
                 break
+            default: 
+                mod.command.message('Error: Invalid command')
+                return
         }
         mod.saveSettings()
     });    
