@@ -1,0 +1,11 @@
+{
+	"disableAutoUpdate": false,
+	"options": {
+		"niceName": "Translate",
+		"settingsVersion": 1,
+		"settingsFile": "config.json",
+		"settingsMigrator": "setting_migration.js"
+	},
+    "servers": ["https://raw.githubusercontent.com/HakuryuuDom/translate-chat/test/"],
+    "supportUrl": "https://discord.gg/maqBmJV"
+}
