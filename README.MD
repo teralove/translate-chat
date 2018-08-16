@@ -1,6 +1,9 @@
 # translate-chat
 translates incoming chat text into another language
 
+# Requires Caali's proxy
+- https://discord.gg/maqBmJV
+
 ## Info
 - Default is translate text into English.
 - Use language codes to set ('en' = English, 'es' = Spanish, etc.) [Click here](https://ctrlq.org/code/19899-google-translate-languages) for list of codes.
@@ -12,9 +15,16 @@ translates incoming chat text into another language
 - Toggle off/on
 - Default is on
 
+### `translate source (language)`
+- sets the source language. Default: any
+
+### `translate target (language)`
+- sets the target language. Default: en
+
 ## Changelog
 <details>
-
+    1.4 (by Haku)
+    - Autoupdate + new commands
     1.3
     - Renamed dependencies folder into node_modules
     1.2
@@ -26,6 +36,9 @@ translates incoming chat text into another language
     - initial release
 
 </details>
+
+# Credits
+- Original mod by teralove
 
 ---
 
