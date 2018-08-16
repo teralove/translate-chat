@@ -38,15 +38,18 @@ module.exports = function TranslateChat(mod) {
     
     function getTranslation(event, callback) {        
         let sanitized = event.message.replace(/<(.+?)>|&rt;|&lt;|&gt;|/g, '').replace(/\s+$/, ''); 
-
-        translate({
-            text: sanitized,
-            source: mod.settings.sourceLang,
-            target: mod.settings.targetLang
-        }, function(result) {
-            if (result != sanitized) callback(result);
-            else callback(undefined);
-        });
+        if(sanitized === '') {
+            callback(undefined);
+        } else {
+            translate({
+                text: sanitized,
+                source: mod.settings.sourceLang,
+                target: mod.settings.targetLang
+            }, function(result) {
+                if (result != sanitized) callback(result);
+                else callback(undefined);
+            });
+        }
     }
  
     mod.command.add('translate', (...args) => {

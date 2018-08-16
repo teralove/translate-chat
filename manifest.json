@@ -1,6 +1,6 @@
 {
 	"files": {
-		"index.js": "9db01cca7727626e406711e6d9cea5825be8de8ee2c7b5233d27aeaefad13669",
+		"index.js": "e4f6761bd07223c794149fefc1887bd31dbe65650aafb5b91c3de3c5235f0e6c",
 		"module.json": "7b3a608ed223a6cfcb2b281c424bfdb93b08ea2205c6767e2002b5c9e156bf5a",
 		"node_modules/bluebird/index.js": "e9ca1eefba6a59fb24ad03eff54b173ed6e2020be310c4bc39cbe9d654c9e6c1",
 		"node_modules/bluebird/js/browser/bluebird.core.js": "018cc369e8413fd37465d8023ebc723ad494bec166115da50f4d8da6f6d77cc8",
