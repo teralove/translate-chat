@@ -16,7 +16,7 @@ module.exports = function TranslateChat(mod) {
         
     mod.hook('S_WHISPER', 2, {order: 100}, (event) => {
         if (!mod.settings.enabled) return;
-        if (event.author === mod.game.me.name) return;
+        if (event.authorName === mod.game.me.name) return;
         
         getTranslation(event, function(query) {
             if (query != undefined) {
