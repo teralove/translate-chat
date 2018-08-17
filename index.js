@@ -9,7 +9,7 @@ module.exports = function TranslateChat(mod) {
         
         getTranslation(event, function(query) {
             if (query != undefined) {
-                mod.send('S_CHAT', 2, Object.assign({}, event, {message: query.translation, authorName: event.authorName + ' (Translation)'}));
+                mod.send('S_CHAT', 2, Object.assign({}, event, {message: query.translation, authorName: event.authorName + ' (Translated)'}));
             }
         });
     });   
@@ -20,7 +20,7 @@ module.exports = function TranslateChat(mod) {
         
         getTranslation(event, function(query) {
             if (query != undefined) {
-                mod.send('S_WHISPER', 2, Object.assign({}, event, {message: query.translation, author: event.authorName + ' (Translated)'}));
+                mod.send('S_WHISPER', 2, Object.assign({}, event, {message: query.translation, authorName: event.authorName + ' (Translated)'}));
             }
         });        
     });    
@@ -31,10 +31,15 @@ module.exports = function TranslateChat(mod) {
         
         getTranslation(event, function(query) {
             if (query != undefined) {
-                dispatch.toClient('S_PRIVATE_CHAT', 1, Object.assign({}, event, {message: query.translation, authorName: event.authorName + ' (Translated)'}));
+                mod.send('S_PRIVATE_CHAT', 1, Object.assign({}, event, {message: query.translation, authorName: event.authorName + ' (Translated)'}));
             }
         });
     });
+
+    mod.hook('C_WHISPER', 1, event => {
+        event.target = event.target.replace(/(\(Translated\)).*?/g, '').replace(/\s+$/, '')
+        return true;
+    })
     
     function getTranslation(event, callback) {        
         let sanitized = event.message.replace(/<(.+?)>|&rt;|&lt;|&gt;|/g, '').replace(/\s+$/, ''); 

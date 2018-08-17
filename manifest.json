@@ -1,6 +1,6 @@
 {
 	"files": {
-		"index.js": "e4f6761bd07223c794149fefc1887bd31dbe65650aafb5b91c3de3c5235f0e6c",
+		"index.js": "75b74209f7a225f862476b9251df404229ea5c3cf9c1ebf8b1d0f7681dd8070e",
 		"module.json": "7b3a608ed223a6cfcb2b281c424bfdb93b08ea2205c6767e2002b5c9e156bf5a",
 		"node_modules/bluebird/index.js": "e9ca1eefba6a59fb24ad03eff54b173ed6e2020be310c4bc39cbe9d654c9e6c1",
 		"node_modules/bluebird/js/browser/bluebird.core.js": "018cc369e8413fd37465d8023ebc723ad494bec166115da50f4d8da6f6d77cc8",
@@ -52,6 +52,7 @@
 		"setting_migration.js": "f25fe369f415f71ed8cff865f59f29a260d66a83b8cc1dc94609e1390881dcee"
 	},
 	"defs": {
+		"C_WHISPER": 1,
 		"S_CHAT": 2,
 		"S_PRIVATE_CHAT": 1,
 		"S_WHISPER": 2
