@@ -23,6 +23,7 @@ translates incoming chat text into another language
 
 ## Changelog
 <details>
+-
     1.4 (by Haku)
     - Autoupdate + new commands
     1.3
