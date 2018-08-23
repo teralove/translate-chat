@@ -49,7 +49,7 @@
 		"node_modules/node-google-translate-skidz/package.json": "bc3329ea23839756a457b9b2af3fa08a289a7dffe6c4fe7f9e1cbc3cb65a5d58",
 		"node_modules/request-promise/lib/rp.js": "888dd8ad60462b80eab5a5412400cb8f187abf2ced92f200d5d096563200cb80",
 		"node_modules/request-promise/package.json": "d54c2264c8c2af699fd68981a992c3df0aefadd0285598052b4dc8d36418d64e",
-		"setting_migration.js": "f25fe369f415f71ed8cff865f59f29a260d66a83b8cc1dc94609e1390881dcee"
+		"setting_migration.js": "a1b00c29c96264bd10e193a7bee6a437947ffe62ee6d3469bb03706a60beabed"
 	},
 	"defs": {
 		"C_WHISPER": 1,
