@@ -22,9 +22,14 @@ translates incoming chat text into another language
 ### `translate target (language)`
 - sets the target language. Default: en
 
+### `translate send (language)`
+- Use this to translate outgoing messages into another language.
+
 ## Changelog
 <details>
 
+    1.5 (by Haku)
+    - Added Send Mode
     1.4 (by Haku)
     - Autoupdate + new commands
     1.3
