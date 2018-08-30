@@ -4,7 +4,7 @@ module.exports = function TranslateChat(mod) {
     const translate  = require('node-google-translate-skidz');
     const latinize = require('latinize');
 
-    mod.game.on('enter_game', () => {
+    mod.game.on('leave_loading_screen', () => {
         if(mod.settings.sendMode) {
             mod.command.message('Send Mode Enabled. Translating outgoing messages to ' + mod.settings.sendLang + '.')
             mod.command.message('Use "/8 translate send off" to disable it.')
