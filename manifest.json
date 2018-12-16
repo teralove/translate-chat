@@ -2,7 +2,7 @@
 	"files": {
 		"README.MD": "0bbf7d1f720fbd7f30a9c58a8f14293ef720933d2f10cdabeae5ae5c58d5f7d5",
 		"index.js": "1b7aed2f994b5029bd3fe4d48421adab355695401f182adf049f6485703b586a",
-		"module.json": "67b68ccecf2fa790affaf92f751d2dc06fed71847d4389a83ba55fa6aab0220f",
+		"module.json": "2697ebe20bf7cd258068d2a4fc14ae2c291b06ea7f598a8283eba9d67c0a19cc",
 		"node_modules/bluebird/index.js": "e9ca1eefba6a59fb24ad03eff54b173ed6e2020be310c4bc39cbe9d654c9e6c1",
 		"node_modules/bluebird/js/browser/bluebird.core.js": "018cc369e8413fd37465d8023ebc723ad494bec166115da50f4d8da6f6d77cc8",
 		"node_modules/bluebird/js/browser/bluebird.core.min.js": "ee339940ede29c957dc1b46f70dddaa3a98a84540e3cd2130d54947352526ed9",

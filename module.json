@@ -9,6 +9,5 @@
 		"settingsFile": "config.json",
 		"settingsMigrator": "setting_migration.js"
 	},
-    "servers": ["https://raw.githubusercontent.com/HakuryuuDom/translate-chat/master/"],
-    "supportUrl": "https://discord.gg/maqBmJV"
+    "servers": ["https://raw.githubusercontent.com/HakuryuuDom/translate-chat/master/"]
 }
