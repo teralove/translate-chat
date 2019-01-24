@@ -1,7 +1,8 @@
 {
 	"files": {
-		"index.js": "e4f6761bd07223c794149fefc1887bd31dbe65650aafb5b91c3de3c5235f0e6c",
-		"module.json": "7b3a608ed223a6cfcb2b281c424bfdb93b08ea2205c6767e2002b5c9e156bf5a",
+		"README.MD": "0bbf7d1f720fbd7f30a9c58a8f14293ef720933d2f10cdabeae5ae5c58d5f7d5",
+		"index.js": "1b7aed2f994b5029bd3fe4d48421adab355695401f182adf049f6485703b586a",
+		"module.json": "e9da6b17b7fa90dfd8aa319d780ab20a467ddf8a7b324be594fff2201e392806",
 		"node_modules/bluebird/index.js": "e9ca1eefba6a59fb24ad03eff54b173ed6e2020be310c4bc39cbe9d654c9e6c1",
 		"node_modules/bluebird/js/browser/bluebird.core.js": "018cc369e8413fd37465d8023ebc723ad494bec166115da50f4d8da6f6d77cc8",
 		"node_modules/bluebird/js/browser/bluebird.core.min.js": "ee339940ede29c957dc1b46f70dddaa3a98a84540e3cd2130d54947352526ed9",
@@ -45,13 +46,17 @@
 		"node_modules/bluebird/js/release/using.js": "f36839cef0b9fd56d9a1a2908b475511c4c821e33fff7937ab5704a83f2632eb",
 		"node_modules/bluebird/js/release/util.js": "84acea6c38feb9cda0bbe2a71ae7979db07bce65e3f87bcec582067dfb91e1d9",
 		"node_modules/bluebird/package.json": "d940969094a6240405d94f5114f317a7e51637364349dcbdb689316f87774eea",
+		"node_modules/latinize/latinize.js": "451d06f1c87459a3ba618c36e2285774afed88ba0523bfcdb8d3963b0e54088c",
+		"node_modules/latinize/package.json": "60a049ce0842f1498cc059b2880c0f7f46c0f8b3342aa702fe3e41c3fd64c599",
 		"node_modules/node-google-translate-skidz/lib/translate.js": "89685f5bfb34b565d7c6bdf842ae69ec9a2e8b6d32f8693cbcae5780c1273848",
 		"node_modules/node-google-translate-skidz/package.json": "bc3329ea23839756a457b9b2af3fa08a289a7dffe6c4fe7f9e1cbc3cb65a5d58",
 		"node_modules/request-promise/lib/rp.js": "888dd8ad60462b80eab5a5412400cb8f187abf2ced92f200d5d096563200cb80",
 		"node_modules/request-promise/package.json": "d54c2264c8c2af699fd68981a992c3df0aefadd0285598052b4dc8d36418d64e",
-		"setting_migration.js": "f25fe369f415f71ed8cff865f59f29a260d66a83b8cc1dc94609e1390881dcee"
+		"setting_migration.js": "18e29fda75a87d5eca35d1aaed7650478372699e7547a3ab9ce5633d250c18e6"
 	},
 	"defs": {
+		"C_CHAT": 1,
+		"C_WHISPER": 1,
 		"S_CHAT": 2,
 		"S_PRIVATE_CHAT": 1,
 		"S_WHISPER": 2

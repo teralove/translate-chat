@@ -1,11 +1,14 @@
 {
 	"disableAutoUpdate": false,
+	"name": "Translate",
+	"author": "HakuryuuDom / teralove",
+	"version": "1.5",
+	"description": "Translates incoming and outgoing messages to another language using Google Translate.",
 	"options": {
 		"niceName": "Translate",
-		"settingsVersion": 1,
+		"settingsVersion": 2,
 		"settingsFile": "config.json",
 		"settingsMigrator": "setting_migration.js"
 	},
-    "servers": ["https://raw.githubusercontent.com/HakuryuuDom/translate-chat/master/"],
-    "supportUrl": "https://discord.gg/maqBmJV"
+    "servers": ["https://raw.githubusercontent.com/HakuryuuDom/translate-chat/master/"]
 }
